@@ -1,0 +1,177 @@
+{
+    "categories": {
+        "HTML": [
+            {
+                "id": 1,
+                "question": "¿Qué etiqueta HTML se utiliza para definir un párrafo?",
+                "options": [
+                    "<paragraph>",
+                    "<p>",
+                    "<pg>",
+                    "<para>"
+                ],
+                "answer": "<p>"
+            },
+            {
+                "id": 2,
+                "question": "¿Cómo se inserta un comentario en un archivo HTML?",
+                "options": [
+                    "// Comentario",
+                    "/* Comentario */",
+                    "<!-- Comentario -->",
+                    "# Comentario"
+                ],
+                "answer": "<!-- Comentario -->"
+            },
+            {
+                "id": 3,
+                "question": "¿Cuál es la finalidad de la etiqueta <title> en HTML?",
+                "options": [
+                    "Cambiar el título del documento visible en la barra de título del navegador",
+                    "Crear un encabezado grande en el documento",
+                    "Establecer el título de una tabla",
+                    "Nombrar una sección del documento"
+                ],
+                "answer": "Cambiar el título del documento visible en la barra de título del navegador"
+            },
+            {
+                "id": 4,
+                "question": "¿Qué atributo se usa para abrir un enlace en una nueva pestaña/ventana del navegador?",
+                "options": [
+                    "newtab",
+                    "target=\"_blank\"",
+                    "open=\"new\"",
+                    "window=\"new\""
+                ],
+                "answer": "target=\"_blank\""
+            }
+        ],
+        "CSS": [
+            {
+                "id": 6,
+                "question": "¿Qué propiedad CSS se utiliza para cambiar el color de fondo de un elemento?",
+                "options": [
+                    "color",
+                    "background-color",
+                    "bgcolor",
+                    "background-image"
+                ],
+                "answer": "background-color"
+            },
+            {
+                "id": 7,
+                "question": "¿Cómo se agrega un comentario en CSS?",
+                "options": [
+                    "// Comentario",
+                    "/* Comentario */",
+                    "<!-- Comentario -->",
+                    "# Comentario"
+                ],
+                "answer": "/* Comentario */"
+            },
+            {
+                "id": 8,
+                "question": "¿Qué propiedad CSS se utiliza para cambiar el tipo de letra de un elemento?",
+                "options": [
+                    "font-family",
+                    "typeface",
+                    "font-type",
+                    "type-style"
+                ],
+                "answer": "font-family"
+            }
+        ],
+        "JavaScript": [
+            {
+                "id": 11,
+                "question": "¿Cuál de las siguientes opciones es una forma correcta de declarar una variable en JavaScript?",
+                "options": [
+                    "var name = 'John';",
+                    "variable name = 'John';",
+                    "v name = 'John';",
+                    "string name = 'John';"
+                ],
+                "answer": "var name = 'John';"
+            },
+            {
+                "id": 12,
+                "question": "¿Cómo se escribe un 'Hola Mundo' en una alerta de JavaScript?",
+                "options": [
+                    "msgBox('Hola Mundo');",
+                    "alertBox('Hola Mundo');",
+                    "msg('Hola Mundo');",
+                    "alert('Hola Mundo');"
+                ],
+                "answer": "alert('Hola Mundo');"
+            },
+            {
+                "id": 13,
+                "question": "¿Qué símbolo se utiliza para seleccionar elementos por su ID en jQuery?",
+                "options": [
+                    "#",
+                    ".",
+                    "@",
+                    "&"
+                ],
+                "answer": "#"
+            },
+            {
+                "id": 14,
+                "question": "¿Cuál de los siguientes métodos puede ser usado para iterar sobre los elementos de un arreglo?",
+                "options": [
+                    "forEach()",
+                    "loop()",
+                    "repeat()",
+                    "cycle()"
+                ],
+                "answer": "forEach()"
+            }
+        ],
+        "React": [
+            {
+                "id": 16,
+                "question": "¿En React, cómo se denomina la técnica que permite renderizar elementos o componentes basados en condiciones?",
+                "options": [
+                    "Conditional Rendering",
+                    "ReactDOM.if",
+                    "Element Rendering",
+                    "Conditional Components"
+                ],
+                "answer": "Conditional Rendering"
+            },
+            {
+                "id": 17,
+                "question": "¿Qué hook de React se utiliza para gestionar el estado en un componente funcional?",
+                "options": [
+                    "useState",
+                    "useEffect",
+                    "useContext",
+                    "useReducer"
+                ],
+                "answer": "useState"
+            },
+            {
+                "id": 18,
+                "question": "¿Qué debe devolver un componente de React?",
+                "options": [
+                    "Un string",
+                    "Números",
+                    "Elementos de React",
+                    "Funciones"
+                ],
+                "answer": "Elementos de React"
+            },
+            {
+                "id": 19,
+                "question": "¿Cómo se declara un componente en React?",
+                "options": [
+                    "class MyComponent extends React.Component {}",
+                    "createComponent MyComponent() {}",
+                    "function MyComponent() {}",
+                    "React.createComponent(MyComponent)"
+                ],
+                "answer": "class MyComponent extends React.Component {}"
+            }
+        ]
+    }
+}

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/4cde275696.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz App</title>
+</head>
+
+<body>
+  <div id="app" class="app">
+    <div class="container">
+      <header class="header">
+        <h2 class="header__title">
+        </h2>
+        <div class="header__theme">
+          <input type="checkbox" id="checkbox-theme" class="header__check">
+          <label class="header__mode" for="checkbox-theme">
+            <i class="fa-regular fa-lightbulb"></i>
+            <div class="header__toggle">
+            </div>
+            <i class="fa-regular fa-moon"></i>
+          </label>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="quiz quiz--main">
+          <section class="quiz__left">
+            <p class="quiz__title quiz__title--main">
+              <span class="quiz__title--prim">Welcome to the</span>
+              <span class="quiz__title--prim">Fronted Quiz!</span>
+            </p>
+            <p class="quiz__txt">Pick a subject to get started</p>
+          </section>
+
+          <section class="quiz__options ">
+            <div class="choice">
+              <span class="choice__icon">
+                <i class="fa-solid fa-code"></i>
+              </span>
+              <span class="choice__text">HTML</span>
+            </div>
+            <div class="choice">
+              <span class="choice__icon">
+                <i class="fa-brands fa-css3-alt"></i>
+              </span>
+              <span class="choice__text">CSS</span>
+            </div>
+            <div class="choice">
+              <span class="choice__icon">
+                <i class="fa-brands fa-js"></i>
+              </span>
+              <span class="choice__text">JavaScript</span>
+            </div>
+            <div class="choice">
+              <span class="choice__icon">
+                <i class="fa-brands fa-react"></i>
+              </span>
+              <span class="choice__text">React</span>
+            </div>
+          </section>
+        </div>
+
+        <div class="quiz quiz--questions no-visible">
+          <section class="quiz__left">
+            <h4 class="quiz__title quiz__title--min">
+              Question
+              <span class="quiz__in">6</span> of
+              <span class="quiz__ou">10</span>
+            </h4>
+            <p class="quiz__ask">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia possimus dolorem blanditiis quam
+              doloribus saepe temporibus
+            </p>
+            <div class="quiz__progres">
+              <span class="quiz__progres-item"></span>
+            </div>
+          </section>
+
+          <section class="quiz__options">
+            <div class="quiz__options-container">
+              <div class="choice" tabindex="0">
+                <div class="choice__icon choice__icon--ques">A</div>
+                <p class="choice__text">
+                </p>
+              </div>
+              <div class="choice" tabindex="0">
+                <div class="choice__icon choice__icon--ques">B</div>
+                <p class="choice__text">pregunta 1
+                </p>
+              </div>
+              <div class="choice" tabindex="0">
+                <div class="choice__icon choice__icon--ques">C</div>
+                <p class="choice__text">
+                </p>
+              </div>
+              <div class="choice" tabindex="0">
+                <div class="choice__icon choice__icon--ques">D</div>
+                <p class="choice__text">
+                </p>
+              </div>
+            </div>
+
+            <button class="btn btn--answer">
+              Submit Answer
+            </button>
+          </section>
+
+        </div>
+
+        <div class="quiz quiz--complete no-visible">
+          <section class="quiz__left">
+            <p class="quiz__title quiz__title--main">
+              <span class="quiz__title--prim">Quiz completed</span>
+              <span class="quiz__title--prim">You Scored...</span>
+            </p>
+          </section>
+
+          <section class="quiz__options">
+            <div class="choice choice--complete">
+              <div class="choice__header">
+                <div class="choice__icon">
+                </div>
+                <span class="choice__text"></span>
+              </div>
+              <span class="choice__number">1</span>
+              <span class="choice__result-number">out of <span class="choice__number-esp"></span></span>
+            </div>
+
+            <button class="btn btn--again">
+              Play Again
+            </button>
+          </section>
+        </div>
+
+      </main>
+
+    </div>
+    <div class="icons"></div>
+  </div>
+
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
